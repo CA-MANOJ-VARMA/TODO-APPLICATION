@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    margin:0;
+    font-family: Roboto;
+}
+
+
+
+
+.css-main-div{
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9fbfe;
+    height: 100vh;
+}
+
+.css-top-heading-text{
+    margin:5px;
+    font-weight: bold;
+}
+
+.css-top-heading{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    position:sticky;
+    
+}
+
+.css-button{
+    font-size: 20px;
+    border-width: 0;
+    padding:10px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor:pointer;
+    
+}
+
+.css-button:hover{
+    background-color: green;
+    color:white; 
+}
+
+
+.css-addtask-button{
+    color:white;
+    background-color: darkorchid;
+    
+}
+
+.css-save-button{
+    background-color: transparent;
+    color:black;
+    border-width: 1px;
+}
+
+.css-input{
+    width:500px;
+    height:40px;
+    border-radius:10px;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    background-color: white;
+
+}
+
+
+.css-display-on-click{
+    width:800px;
+    margin:10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.css-text-div{
+    margin-top:10px;
+}
+
+.css-description{
+    margin-top:10px;
+    height:70px;
+
+}
+
+.css-display-tasks-main-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:50px;
+    padding: 20px;
+    justify-content:flex-start;
+
+}
+
+/* Javascript used */
+
+.css-display-hide{
+    display: none;
+}
+
+.css-parent-div-element{
+    width:300px;
+    height:250px;
+    border-width:1px;
+    border-style: solid;
+    border-radius:20px;
+    overflow: auto;
+    margin:10px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+
+.css-secondchild-element{
+    text-decoration: line-through;
+    color:#33cc00;
+}
+
+.css-third-child-element:hover {
+    color:red;
+    cursor:pointer;
+}
+
+.css-parent-div-element-toggle{
+    /* border-color: green; */
+    /* border-width: 5px; */
+    box-shadow: 5px 5px #00ff40;
+    
+}
